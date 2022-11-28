@@ -170,7 +170,6 @@ margin-top:85px;
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
-    /* identical to box height */
     color: #ffffff;
     margin-top: 36px;
   }
@@ -192,6 +191,5 @@ margin-top: 20px;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
 color: #112255;
 `;

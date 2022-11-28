@@ -11,21 +11,10 @@ export default function Login() {
   const [password, setPassword] = useState("");
   const {rota} = useContext(Contextos)
 
-  // useEffect(() => {
-  //   axios
-  //     .delete(`${rota}/logout`)
-  //     .then((response) => {
-  //       console.log('apagado')
-  //     })
-  //     .catch((error) => {
-  //       return "erro" + error;
-  //     });
-  // }, []);
-
-  return (
+   return (
     <Container>
       <img src={logo}></img>
-      <h1>WEBOOK</h1>
+      <h1>BookStore</h1>
       <input
         disabled={false}
         type="text"
@@ -59,7 +48,6 @@ export default function Login() {
         localStorage.setItem("token", JSON.stringify(response.data.token));
         localStorage.setItem("name", JSON.stringify(response.data.name));
         localStorage.setItem("userId", JSON.stringify(response.data.userId));
-        // console.log("foi");
         navigate("/home");
       })
       .catch((error) => {
@@ -87,7 +75,6 @@ const Container = styled.div`
     font-weight: 400;
     font-size: 96px;
     line-height: 115px;
-    /* identical to box height */
     color: #f5f5f5;
     margin-bottom: 40px;
   }
@@ -113,7 +100,6 @@ const Container = styled.div`
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
-    /* identical to box height */
     color: #ffffff;
     margin-top: 36px;
   }

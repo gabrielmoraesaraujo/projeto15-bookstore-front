@@ -29,7 +29,6 @@ export default function Carrinho() {
   const [cart, setCart] = useState("");
 
   useEffect(() => {
-    //console.log(localStorage.getItem("token"));
     getCart();
   }, []);
 

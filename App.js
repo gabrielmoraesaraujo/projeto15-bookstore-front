@@ -10,12 +10,12 @@ import AddBook from "./components/AddBook"
 import Checkout from "./components/Checkout";
 import Options from "./components/Options"
  
-const deploy = 'https://project-14-webook.herokuapp.com'
+const deploy = 'https://projeto15-bookstore-back.onrender.com'
 const local = 'http://localhost:5000'
 
 export default function App() {
   const [bookGenre, setBookGenre] = useState("all");
-  const[rota,setRota] = useState('https://back-webook.herokuapp.com');
+  const[rota,setRota] = useState('https://projeto15-bookstore-back.onrender.com');
   return (
     <>
       <GlobalStyle />

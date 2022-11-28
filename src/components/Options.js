@@ -13,7 +13,7 @@ export default function Options() {
     <Container>
       <div className="top">
         <div className="tentando" onClick={() => navigate("/home")}>
-          WEBOOK
+          BookStore
         </div>
         <div onClick={() => navigate("/home")}>x</div>
       </div>
@@ -128,7 +128,6 @@ const Container = styled.div`
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-    /* identical to box height */
     color: #f5f5f5;
   }
   p {

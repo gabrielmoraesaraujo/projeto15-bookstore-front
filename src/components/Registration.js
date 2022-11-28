@@ -123,7 +123,6 @@ const Container = styled.div`
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
-    /* identical to box height */
     color: #ffffff;
     margin-top: 36px;
   }
